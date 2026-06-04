@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+
+<body>
+
+    Rock Paper Scissors
+    <button>Rock</button>
+    <button>Paper</button>
+    <button>Scissors</button>
+
+
+    <script>
+        function function1() {
+            console.log('hello');
+            console.log('2+2');
+        }
+
+        function1();
+
+        function function1() {
+            const randomNumber = Math.random();
+
+            let computerMove = '';
+            if (randomNumber >= 0.66) {
+                computerMove = 'Rock';
+            } else if (randomNumber >= 0.33) {
+                computerMove = 'Paper';
+            } else {
+                computerMove = 'Scissors';
+            }
+
+            console.log(computerMove);
+        }
+    </script>
+</body>
+
+</html>
